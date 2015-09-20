@@ -2,7 +2,7 @@ var fs = require("fs");
 var JSON5 = require("json5");
 var json = JSON5.parse( fs.read("urlList.json") );
 
-var LOAD_WAIT_TIME = 20000;
+var loadTime = 20000;
 var index = 0;
 
 scraper(json[index]);
@@ -30,7 +30,7 @@ function scraper(urlArray) {
                 exitIfLast(index, json);
                 index++;
                 scraper(json[index]);
-            }, LOAD_WAIT_TIME);
+            }, loadTime);
 
         } else {
             console.error("Error: couldn't open the page!");
