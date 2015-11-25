@@ -72,8 +72,8 @@ function takeScreenshot(page, urlArray) {
 
     var fileName =  urlArray["name"];
 
-    page.render("images/" + fileName + ".png");
-    console.info("rendered: images/" + fileName + ".png");
+    page.render("screenshots/" + fileName + ".png");
+    console.info("rendered: screenshots/" + fileName + ".png");
 }
 
 function exitIfLast(index, json) {

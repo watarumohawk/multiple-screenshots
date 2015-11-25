@@ -1,3 +1,12 @@
-# multiple-screenshots
+# Install node modules
 
-Take multiple screenshots using PhantomJS.
+```
+$ npm install
+```
+
+# How to run
+
+```
+$ phantomjs scraper.js
+```
+
