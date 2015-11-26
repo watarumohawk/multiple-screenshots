@@ -4,6 +4,12 @@
 $ npm install
 ```
 
+# Install PhantomJS
+
+```
+$ npm install -g phantomjs
+```
+
 # How to run
 
 ```

@@ -4,8 +4,7 @@
   "description": "Take multiple screenshots using PhantomJS.",
   "main": "scraper.js",
   "dependencies": {
-    "json5": "^0.4.0",
-    "phantomjs": "^1.9.8"
+    "json5": "^0.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
